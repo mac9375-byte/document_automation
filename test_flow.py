@@ -133,8 +133,8 @@ class TestFullFlow(unittest.TestCase):
 
     def test_02_create_model(self):
         r = self.c.post("/models/new", {
-            "model_name": "IF SUB PBA A-TYPE", "part_no": "GH97-28431A",
-            "sec_code": "SEC-4412-09", "rev": "3", "customer": "삼성전자",
+            "model_name": "IF SUB PBA A-TYPE", "part_no": "SAMPLE-28431A",
+            "sec_code": "SEC-4412-09", "rev": "3", "customer": "고객사 A",
         })
         self.assertEqual(r["status"], 303)
         self.assertIn("/models/1", r["location"])
