@@ -1,0 +1,13 @@
+# 파이썬
+__pycache__/
+*.pyc
+
+# 운영 데이터 (DB + 업로드된 기준서 원본) - 사내 데이터이므로 저장소에 올리지 않는다
+data/
+
+# 생성물 (python make_sample_spec.py 로 재생성 / 앱에서 출력)
+sample/
+
+# 사내 대외비 문서 - 공개 저장소에 올리지 않는다
+*.xlsx
+*.docx

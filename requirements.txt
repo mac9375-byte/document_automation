@@ -1,0 +1,7 @@
+# 검사성적서 관리 시스템 - 이 PC 에는 이미 전부 설치되어 있습니다.
+# 다른 PC 에 옮길 때만:  pip install -r requirements.txt
+fastapi>=0.110
+uvicorn>=0.27
+openpyxl>=3.1
+python-multipart>=0.0.9
+# DB(sqlite3), Word 파싱(zipfile+xml), CSV 는 표준 라이브러리로 처리합니다.
